@@ -6,8 +6,8 @@ import Menu from "@/components/Menu";
 import AuthProvider from "../components/AuthProvider";
 
 export const metadata: Metadata = {
-  title: "Pisomka1-alex-petrovic",
-  description: "Created by me A. R. Petrovic",
+  title: "Pisomka-Jakub-Pesko",
+  description: "Made by Kub228(Jakub Pesko)",
 };
 
 export default function RootLayout({

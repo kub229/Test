@@ -12,8 +12,8 @@ export const authOptions: NextAuthOptions = {
   ],
   secret: process.env.NEXTAUTH_SECRET,
   pages: {
-    signIn: '/auth/prihlasenie',
-    signOut: '/auth/odhlasenie',
+    signIn: '/auth/signin',
+    signOut: '/auth/signout',
   },
   callbacks: {
     async redirect({ url, baseUrl }: { url: string; baseUrl: string }) {

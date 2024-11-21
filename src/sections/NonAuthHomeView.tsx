@@ -9,12 +9,12 @@ export default function NonAuthHomeView() {
   const { status } = useSession();
 
   if (status === 'loading') {
-    return <Typography variant="h5" align="center">Loading...</Typography>;
+    return <Typography variant="h5" align="center">Loading</Typography>;
   }
 
   return (
     <div style={{ textAlign: 'center', marginTop: '20%' }}>
-      <Typography variant="h4">Please log in to access personalized content.</Typography>
+      <Typography variant="h4">Log in required</Typography>
     </div>
   );
 }

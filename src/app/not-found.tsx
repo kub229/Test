@@ -3,7 +3,7 @@
 
 import Typography from '@mui/material/Typography';
 
-export const metadata = { title: 'NotFound | RobertWeb'};
+export const metadata = { title: 'NotFound | Kub228'};
 
 export default function NotFound() {
   return (

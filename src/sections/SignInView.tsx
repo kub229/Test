@@ -11,7 +11,10 @@ export default function SignInView() {
   return (
     <div style={{ textAlign: 'center', marginTop: '20%' }}>
       <Typography variant="h4" gutterBottom>
-        Prihlásenie
+        Sign In
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Sign In using a Google account.
       </Typography>
       <Button 
         variant="contained" 

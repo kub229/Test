@@ -20,10 +20,10 @@ export default function SignOutView() {
   return (
     <div style={{ textAlign: 'center', marginTop: '20%' }}>
       <Typography variant="h4" gutterBottom>
-        Odhlásenie
+        Sign Out
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Are you sure you want to sign out?
+        Confirm Sign Out.
       </Typography>
       <Button 
         variant="contained" 

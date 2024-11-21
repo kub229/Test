@@ -3,12 +3,12 @@
 import Typography from '@mui/material/Typography';
 import  Box   from '@mui/material/Box';
 
-export const metadata = { title: 'Podmienky | RobertWeb'};
+export const metadata = { title: 'Terms | Kub228'};
 
 export default function TermsConditions() {
   return (
     <Box>
-      <Typography> Podmienky pouzivatela </Typography>
+      <Typography> Terms of user </Typography>
     </Box>
   );
 }

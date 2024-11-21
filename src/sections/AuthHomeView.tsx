@@ -9,7 +9,7 @@ export default function AuthHomeView() {
   const { data: session, status } = useSession();
 
   if (status === 'loading') {
-    return <Typography variant="h5" align="center">Loading...</Typography>;
+    return <Typography variant="h5" align="center">Loading</Typography>;
   }
 
   return (
