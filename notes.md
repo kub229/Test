@@ -44,3 +44,6 @@ Set up .env
     GOOGLE_CLIENT_SECRET=your-google-client-secret
     NEXTAUTH_URL=http://localhost:3000  #alebo production URL
 
+V0 - vercel AI
+
+Material UI - library
