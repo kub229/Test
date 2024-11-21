@@ -17,3 +17,30 @@ Next.js rezervovane nazvy --> layout.tsx, not-found.tsx, page.tsx
 -routing --> npm run build --> skompiluje a vytvori production server na localhoste, vzdy zapnut pred commit/sync aby sa errors nedostali na production server
 
 vypise vsetky folders a files okrem .next, node_modules, .git --> ind . -path './.next' -prune -o -path './node_modules' -prune -o -path './.git' -prune -o -print | sed -e "s/[^\/]*// |/g" -e "s/|([^ ])/|-\1/"
+
+
+
+Prejdi do Google Developer Console
+
+Vytvor nový projekt alebo vyber existujúci projekt
+
+V sekcii APIs & Services klikni na Credentials (Prihlásenie)
+
+V sekcii OAuth 2.0 Client IDs klikni na Create Credentials (Vytvoriť prihlasovacie údaje)
+
+Vyber možnosť OAuth client ID (OAuth klient ID)
+
+Nastav typ aplikácie na Web Application (Webová aplikácia)
+
+Pridaj nasledujúcu redirect URI (adresu pre presmerovanie):
+
+    http://localhost:3000/api/auth/callback/google
+
+
+
+Set up .env
+
+    GOOGLE_CLIENT_ID=your-google-client-id
+    GOOGLE_CLIENT_SECRET=your-google-client-secret
+    NEXTAUTH_URL=http://localhost:3000  #alebo production URL
+
